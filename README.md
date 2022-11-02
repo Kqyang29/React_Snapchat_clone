@@ -2,6 +2,34 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
+DataBase
+  - Firebase
+  - Firebase_auth
+  - Firebase_cloud_Firestore
+  - Firebase Storage
+  
+  
+Feature:
+  - User can SignIn with GoogleSignIn && SignOut by Click Avatar
+    - <img width="270" alt="image" src="https://user-images.githubusercontent.com/65383495/199392600-4553ff0d-3a22-473c-befa-362c33fee38c.png">
+    
+  - Click Button ask you get Camera Permission, after allow permission, User can start to take Picture
+    - <img width="313" alt="image" src="https://user-images.githubusercontent.com/65383495/199392736-86c43037-0a52-4e98-8645-feb7fecc65c7.png">
+    
+  - After taking the photo, User can preview the picture and Click send
+    - <img width="280" alt="image" src="https://user-images.githubusercontent.com/65383495/199392816-8f12728a-68f5-4354-a5ff-6599434c941d.png">
+    
+  - Picture will send it to Chat Page and User can see their user infomation (name, profilePic,Post_Time..), and it will show unread red Icon 
+    - <img width="248" alt="image" src="https://user-images.githubusercontent.com/65383495/199392901-386d9e96-1771-48d4-86e9-5ddb4470e041.png">
+    
+  - Click the checkbox, User can preview their picture again, and it will set the 10s timer, after 10s, page will automatically pop back or user can click screen to pop back to last page
+    - <img width="248" alt="image" src="https://user-images.githubusercontent.com/65383495/199393016-848b7991-9067-423e-87ee-adca0376ece9.png">
+
+  - Store the User Info in Redux and pass those value between pages
+  
+Host URL: https://linkedin-clone-3dccb.web.app
+
+
 ## Available Scripts
 
 In the project directory, you can run:
